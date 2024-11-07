@@ -1,0 +1,21 @@
+:root{
+  --bg-color: #101a27;
+  --bg-color-hover: #111f31;
+  --font-color: #fffbfd;
+}
+
+body{
+  background-color: var(--bg-color);
+  color:var(--font-color);
+  font-family: 'Poppins', sans-serif;
+}
+
+.tic-tac-toe:hover{
+  background-color: var(--bg-color-hover);
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: var(--font-color);
+}

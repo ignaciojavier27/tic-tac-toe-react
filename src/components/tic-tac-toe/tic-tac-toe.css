@@ -1,0 +1,19 @@
+.board{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+}
+
+.board-cell{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin:5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: white;
+}
